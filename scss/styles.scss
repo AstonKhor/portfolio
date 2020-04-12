@@ -375,6 +375,7 @@ footer {
     border-radius: 250px;
     height: 500px;
     width: 500px;
+    margin-right: 20px;
   }
 
 
@@ -912,12 +913,13 @@ footer {
     max-height: auto;
     padding: 100px 15px;
   }
+
+  #mobile-menu-open, #mobile-menu-close {
+    display: block;
+  }
   
   #lead-content {
-    position: relative;
-    transform: none;
-    left: auto;
-    top: auto;
+    align-items: center;
     
     h1 {
       font-size: 3em;
@@ -952,10 +954,6 @@ footer {
     animation: none;
     bottom: 0;
     height: 100%;
-  }
-
-  #mobile-menu-open, #mobile-menu-close {
-    display: block;
   }
 
   #menu {
@@ -1021,6 +1019,8 @@ footer {
 @media only screen and (max-width : 480px) {
 
   #lead-content {
+    
+
     h1 {
       font-size: 1.5em;
     }
